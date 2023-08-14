@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW TRENDS</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Piedra&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+
+</he>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>New Trends</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="home()">Home</a>
+                    <a id="shop" onclick="shop()">Shops</a>
+                    <a id="blog" onclick="blog()">Blog</a>
+                    <a id="about" onclick=" about()">About</a>
+                    <a id="contact" onclick="contact()">Contact</a>
+                    <i onclick="addItem()" class="fa-sharp fa-solid fa-cart-shopping"></i>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="mainPage">
+            <div class="text">
+                <h2>Trends...</h2>
+                <h1 class="heads">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>Save more with coupons and upto 20% off</p>
+                <button>Explore</button>
+            </div>
+            <img src="m3.png" alt="">
+        </div>
+
+        <!---cards-->
+        <div class="cardMen">
+            <div class="head">
+                <h1>Trends <span>Men's Wear</span></h1>
+            </div>
+            <div class="card" id="item1">
+                <div class="crd">
+                    <img src="srt1.webp" alt="" onclick="showCard(this)">
+                    <div class="txt">
+                        <h3>Cotton Trending Shirt's</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button onclick="add(item1)">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="srt2.webp" alt="" onclick="showCard(this)">
+                    <div class="txt">
+                        <h3>Cotton Trending Shirt's</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <img src="srt6.webp" alt="" onclick="showCard(this)">
+                    <div class="txt">
+                        <h3>Cotton Trending Shirt's</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-----women card-->
+            <div class="cardgirl">
+                <div class="head">
+                    <h1>Trends <span>Women's Wear</span></h1>
+                </div>
+
+                <div class="card">
+                    <div class="crd">
+                        <img src="wn6.webp" alt="" onclick="showCard(this) ">
+                        <div class="txt">
+                            <h3>Trending Girl Tops</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="crd">
+                        <img src="wn4.webp" alt="" onclick="showCard(this) ">
+                        <div class="txt">
+                            <h3>Trending Girl Tops</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="crd">
+                        <img src="wn5.webp" alt="" onclick="showCard(this)">
+                        <div class="txt">
+                            <h3>Trending Girl Tops</h3>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i><br>
+                        <button>Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------ABOUT----->
+            <div class="about">
+                <div class="aboutText">
+                    <h1>Know About Us...</h1>
+                    <p>NEW TRENDS IS A BIG BRAND</p>
+                </div>
+    
+                <div class="aboutus">
+                    <img src="lap.png" alt="">
+                    <div class="dumiText">
+                        <h1>Who we are ?</h1>
+                        <p>Welcome to New Trends, your number one source for all things. 
+                            We're dedicated to giving you the very best of services, with a focus on dependability, customer service and uniqueness.
+                            Founded in 2022 by Miss.Shreya Mhatre,
+                            Basically we provides the variety of clothes and also the quality is awesome.
+                            All clothes are get in offer so people can buy as in low rate.Explore the hottest color palettes,patterns and 
+                            silhouettes that are taking the fashion world to storm.
+                            Embrace the world of trendy shopping for boys clothing and let your style shine 
+                            with confidence and creativity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        <!--Full cart  -->
+        <div class="fullPage">
+            <img id="cartImg" src=" " alt="">
+            <div class="cartText">
+                <h1>Trends Offer : Trending Shop <br> Now</h1>
+                <h2>Special Price</h2>
+                <h2>$11</h2>
+                <p>Unlock your Style:A Guide to Smart Clothes Buying</p>
+                <p>Discover the art of curating your wardrobe with our 
+                    insightful guide on clothes and buying.</p>
+                <p>Get ready to elevate your fashion game and make every outfit
+                    a statement Please buy something and get a New Trending fashion.
+                </p>
+                <div class="btn">
+                    <button onclick="buynow()">Buy Now</button>
+                    <button onclick="addToCart()">Add To Cart</button>
+
+                </div>
+                <div class="btns">
+                    <button class="relode" onclick="location.reload()">Back </button>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <!-- add to cart -->
+        <div class="addCart"></div>
+
+        <div class="blogContent">
+            <div class="head">
+                <h1>NEW TRENDS TOPS <span>Blog's</span></h1>
+            </div>
+
+            <div class="trd">
+                <div class="trending">
+                    <img src="tr1.webp" alt="">
+                    <div class="txt">
+                        <h3>TRENDING GIRLS CLOTHES</h3><br>
+                        <p>Unlock Your Style:The ultimate guide to shopping for Trendy Girls clothing.<br>
+                            Explore the hottest color palettes,patterns and 
+                            silhouettes that are taking the fashion world to storm.</p><br>
+                        <a href="https://influencermarketinghub.com/best-fashion-blogs/">Read More</a>
+                    </div>
+                </div>
+                <div class="trending">
+                    <img src="tr3.webp" alt="">
+                    <div class="txt">
+                        <h3>TRENDING BOYS CLOTHES</h3> <br>
+                        <p>Unlock Your Style:The ultimate guide to shopping for Trendy Boys clothing.<br>
+                            Embrace the world of trendy shopping for boys clothing and let your style shine 
+                            with confidence and creativity.</p><br>
+                        <a href="https://www.apetogentleman.com/">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="letter">
+            <div class="sign">
+                <h2>Sign Up for NewsLetter</h2>
+            </div>
+        
+            <div class="inp">
+                <input type="text" placeholder="Enter Email Address">
+                <button onclick="signup()">Sign up</button>
+            </div>
+        </div>
+
+        <!-- contact -->
+
+        <div class="contact">   
+            <div class="contactBanner">
+                <h1>Let's Connect</h1>
+            </div>
+            <div class="connect">
+                <div class="connectText">
+                    <h1>Visit Our Office or Contact <br> Us Today</h1>
+                    <p>Address : At-Post-Kelawane,Tal-Panvel,Dist-Raigad</p>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> shreyamhatre736@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 7038509746</p><br>
+
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>&nbsp;&nbsp;
+                        <a href="http://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>&nbsp;&nbsp;
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/in/shreya-mhatre-30750227"><i class="fa-brands fa-linkedin"></i></a>
+                    </div><br> 
+
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+                1d15105.453176691684!2d73.03004389493164!3d18.82650770246413!2m3!
+                1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7de533cfb1195%3A
+                0x75e90af09c9e3c0a!2sKelvane%2C%20Maharashtra%20410206%2C%20India!5e
+                0!3m2!1sen!2sus!4v1691750273598!5m2!1sen!2sus" width="600" height="450" 
+                style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+            </div>
+            
+            <div class="form">
+                <h1>Contact Form</h1>
+                <form action="" name="Contact-us-Ecommerce">
+                    <input type="text" placeholder="Enter Your Name"> <br>
+                    <input type="text" placeholder="Enter Your Email"><br>
+                    <input type="text" placeholder="Enter Your Address"><br>
+                    <button class="btn" style="width: 20%;">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+        <!-- Footer -->
+
+        <div class="footer">
+            <div class="Ftext">
+                <h1>TRENDS</h1>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Satisfation</p>
+            </div>
+            <div class="Ftext">
+                <h3>ABOUT US</h3>
+                <p>Adrress :At-post-kelawane,Tal-Panvel,Dist-Raigad</p>
+                <p>Trendy patterns available</p>
+                <p>Customer</p>
+            </div>
+            <div class="Ftext">
+                <h3>Contact</h3>
+                <p>7038509746</p>
+                <p>shreyamhatre736@gmail.com</p>
+            </div>
+            <div class="Ftext">
+                <h3>Trending</h3>
+                <p>New Arrival</p>
+                <p>Comming up...</p>
+                <p>New Offers</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Shreya Mhatre |All rights Reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzNb4l2TxNfUQW0Q-lhf60IDPwZAIxT5CneLj-ek4s9zbhJKAvsqtRn_sjavkHJg9rSRQ/exec'
+        const form = document.forms['Contact-us-Ecommerce']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                form.reset()
+                alert('Message Sent Successfully!')
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
